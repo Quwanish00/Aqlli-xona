@@ -1,0 +1,34 @@
+# aqlli_xona/requirements.txt
+# Aqlli Xona Boshqaruv Tizimi — Python kutubxonalari
+# O'rnatish: pip install -r requirements.txt
+
+# ── Web server ──────────────────────────
+flask==3.0.3
+flask-cors==4.0.1
+
+# ── Ma'lumotlar bazasi ──────────────────
+# SQLite — standart Python bilan keladi (qo'shimcha o'rnatma shart emas)
+# PostgreSQL uchun:
+# psycopg2-binary==2.9.9
+# sqlalchemy==2.0.30
+
+# ── MQTT ────────────────────────────────
+paho-mqtt==2.1.0
+
+# ── Yuz tanish (server tomonida) ─────────
+# face_recognition==1.3.0     # dlib talab qiladi (og'ir)
+# deepface==0.0.93            # TensorFlow asosida, yengilroq
+opencv-python-headless==4.10.0.82
+
+# ── Mashinaviy o'rganish ─────────────────
+numpy==1.26.4
+scikit-learn==1.5.0
+
+# ── Raspberry Pi (faqat RPi da o'rnating)
+# RPi.GPIO==0.7.1
+# adafruit-circuitpython-dht==4.0.3
+# smbus2==0.4.3
+# board (adafruit-blinka)
+
+# ── Sifat va jurnal ──────────────────────
+python-dotenv==1.0.1
